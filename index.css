@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0;
+    overflow-x: hidden;
+    background-color: yellowgreen;
   }
 
 html {
@@ -97,6 +98,7 @@ html {
 }
 
 @media(max-width:992px) {
+    
     .main{
         min-height: 10vh;
     }
@@ -130,8 +132,9 @@ html {
         left: 0;
         display: flex;
         margin-top: 6rem;
-        transform: translateX(-101%);
+        transform: translateX(-100%);
         display: block;
+        pointer-events: none;
 
     }
     
